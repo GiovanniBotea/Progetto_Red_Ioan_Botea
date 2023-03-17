@@ -1,0 +1,158 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.pertitoli {
+    font-family: 'Nova Square', cursive;
+}
+
+.perparagrafi {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+
+
+.immagine1 {
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0)), url(./immagini/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.titolo {
+    top: 700px;
+    right: 10px;
+    font-size: 100px;
+    color: darkred;
+    letter-spacing:80px;
+    font-family: 'Nova Square', cursive;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.immagine2 {
+    position: absolute;
+    width: 100%; ;
+    left: 0px;
+    bottom: 0px;
+    
+
+}
+
+.icons {
+    color: darkred;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.icons1 {
+    border-color: darkred !important; 
+  
+}
+
+.icons1::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid darkred;
+    position: absolute;
+    bottom: -617px
+}
+
+.virgolette {
+    color: darkred;
+    font-size: 30px;
+}
+
+.titoli {
+    color: darkred;
+}
+
+.buttom {
+    margin-top: 100px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    
+}
+
+.trees1 {
+    min-height: 15vh;
+}
+
+.testo {
+    margin-left: 300px;
+    
+}
+
+.sfondo1 {
+    background-color: rgb(236,236,236);
+}
+
+.titolo2 {
+    color: darkred;
+    font-family: 'Nova Square', cursive;
+}
+
+.titolo1 {
+    color: darkred;
+    font-family: 'Nova Square', cursive;
+    position: relative;
+}
+
+.titolo1::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid darkred;
+    position: absolute;
+    left: -22px;
+}
+
+.sfondo2 {
+    background-image: url(./immagini/single.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    
+}
+
+.links {
+    color: darkred;
+    
+}
+
+.img {
+    border:3px solid darkred;
+}
+
+.col_h {
+    height: 30vh;
+    margin-bottom: 10vh;
+}
+
+.sfondo3 {
+    background-color: darkred;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.b-left {
+    border-left: 2px solid darkred;
+}
